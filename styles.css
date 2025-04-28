@@ -1,0 +1,46 @@
+/* 基本のリセット */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* 全体の設定 */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* ヘッダー */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  header nav ul {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  header nav a {
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* メイン */
+  main {
+    padding: 20px;
+  }
+  
+  /* フッター */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
